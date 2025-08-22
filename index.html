@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen flex items-center justify-center p-4">
+    <div class="flex flex-col items-center space-y-6">
+        <h1 class="text-4xl font-bold text-gray-800 drop-shadow-lg">Escape the jail</h1>
+
+        <canvas id="canvas" class="relative"></canvas>
+
+        <p class="text-gray-600 text-center max-w-md">
+            Use the <span class="font-bold">left</span>, <span class="font-bold">right</span> and <span
+                class="font-bold">up</span> arrow keys to move.
+        </p>
+        <button class="show-keys" id="show-keys">⋱⋰</button>
+        <div id="key-info" class="text-gray-600 text-center max-w-md" style="display: none;">
+            <span class="font-bold">All keys:</span>
+            <div class="keys"><div class="color1"></div>Jump</div>
+            <div class="keys"><div class="color2"></div>Water</div>
+            <div class="keys"><div class="color3"></div>Lava</div>
+            <div class="keys"><div class="color4"></div>Next Level</div>
+            <div class="keys"><div class="color5"></div>Key</div>
+            <div class="keys"><div class="color6"></div>No Bounce</div>
+            <div class="keys"><div class="color7"></div>Change Costume</div>
+            <div class="keys"><div class="color8"></div>Ladder</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

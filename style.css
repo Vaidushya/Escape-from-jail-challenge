@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  user-select: none;
+}
+
+#canvas {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  background-color: #e0f7fa;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+#canvas:focus {
+  outline: none;
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.keys div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.keys .color1 {
+  background-color: #E373FA;
+  border: #ffffff 1px solid;
+}
+
+.keys .color2 {
+  background-color: rgba(121, 220, 242, 0.4);
+  border: #ffffff 1px solid;
+}
+
+.keys .color3 {
+  background-color: #C93232;
+  border: #ffffff 1px solid;
+}
+
+.keys .color4 {
+  background-color: #FADF73;
+  border: #ffffff 1px solid;
+}
+
+.keys .color5 {
+  background-color: #00FFFF;
+  border: #ffffff 1px solid;
+}
+
+.keys .color6 {
+  background-color: #666666;
+  border: #ffffff 1px solid;
+}
+
+.keys .color7 {
+  background-color: #73C6FA;
+  border: #ffffff 1px solid;
+}
+
+.keys .color8 {
+  background: #777777;
+  border: #ffffff 1px solid;
+}
+
+button {
+  background: none;
+  border-radius: 50%;
+  padding: 0.1px;
+  border: none;
+  font-size: x-large;
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  background: linear-gradient(135deg, #575757 0%, #7b7b7b 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-y-6>*+* {
+  margin-top: 1.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-gray-800 {
+  color: #262c36;
+}
+
+.drop-shadow-lg {
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.relative {
+  position: relative;
+}
+
+.text-gray-600 {
+  color: #30363f;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
